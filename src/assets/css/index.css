@@ -60,6 +60,7 @@ li {
   font-size: 0.8rem;
   font-weight: bold;
   border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 .tag-btn.active {
