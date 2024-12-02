@@ -30,3 +30,49 @@ a:visited {
 li {
   list-style-type: none;
 }
+
+/* # utils */
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 1000px;
+  max-width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* # main */
+
+.tags-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.tag-btn {
+  background-color: #0d6efd;
+  color: white;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+}
+
+.tag-btn.active {
+  background-color: #ffc107;
+}
+
+.card {
+  margin: 2rem auto;
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.card h2 {
+  padding-bottom: 1rem;
+}

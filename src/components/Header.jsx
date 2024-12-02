@@ -1,3 +1,7 @@
 export default function Header() {
-  return <h1>Learn Web Development</h1>;
+  return (
+    <div className="container">
+      <h1>Learn Web Development</h1>;
+    </div>
+  );
 }

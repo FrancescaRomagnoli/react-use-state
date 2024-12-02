@@ -1,9 +1,9 @@
 export default function TagsButtons({ tags }) {
   return (
-    <ul>
+    <ul className="tags-row">
       {tags.map((tag) => {
         return (
-          <li className={`tag-label tag-${tag}`} key={tag}>
+          <li className={`tag-btn`} key={tag}>
             {tag}
           </li>
         );
