@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #e5e5e5;
+  background-color: white;
 }
 
 a {
@@ -44,6 +44,19 @@ li {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+/* # header */
+
+.header {
+  background-color: #f8f9fa;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* # main */

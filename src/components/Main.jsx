@@ -13,16 +13,18 @@ export default function Main() {
   };
 
   return (
-    <div className="container">
-      <div>
-        <TagsList tags={tags} onTagClick={handleTagClick} />
+    <main>
+      <div className="container">
+        <div>
+          <TagsList tags={tags} onTagClick={handleTagClick} />
+        </div>
+        <div>
+          <Card
+            title={currentLanguage.title}
+            description={currentLanguage.description}
+          />
+        </div>
       </div>
-      <div>
-        <Card
-          title={currentLanguage.title}
-          description={currentLanguage.description}
-        />
-      </div>
-    </div>
+    </main>
   );
 }
